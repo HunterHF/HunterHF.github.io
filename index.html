@@ -525,7 +525,6 @@
   	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   	crossorigin="anonymous"></script>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="contactform.js"></script>
 	<script src="js/equalheights.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script>
@@ -565,5 +564,23 @@
 		});
 
 		burgerMenu('.burger-menu');
+
+		$('[type="submit"]').click(function() {
+		  $.post( 
+		  
+		  "submit.php", //url
+		  
+		  { //äàííûå èç ôîðìû
+		    email: $('[name="email"]').val(),
+		    name: $('[name="name"]').val(),
+		    message: $('[name="message"]').val()
+		  }, 
+		  
+		  function( data ) { //ïîñëå îòïðàâêè äàííûõ
+		    $( ".result" ).html(data);
+		  }
+		  
+		  );
+		});
 	</script>
 </body>
