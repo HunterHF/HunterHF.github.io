@@ -78,6 +78,7 @@ header{
 	background:url(../img/header-bg.jpg)no-repeat top center /  cover;
 	height:100vh;
 	color:white;
+  position: relative;
 }
 header .logo img,
 header nav .link{
