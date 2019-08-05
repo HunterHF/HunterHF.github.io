@@ -1,0 +1,109 @@
+@media screen and (max-width:1200px){
+	header .main-block {
+   		margin-bottom:40vh;
+	}
+	#our_clients .arrow-left i {
+    	left:0px;
+	}
+	#our_clients .arrow-right i {
+    	right:0px;
+	}
+
+}
+
+@media screen and (max-width:992px){
+	header .link{
+		display:none
+	}
+	header .burger-menu{
+		display:block;
+	}
+	.navbar,
+	.navbar-menu_active{
+		display:block;
+	}
+	#about-me .about-me .about-me__text{
+		margin:30px 0px;
+		padding: 30px 100px;
+	}
+
+	#our_clients .commentator .commentator__text {
+    	margin: 0px;
+	}
+	#our_clients .arrow-left i {
+    	left:-50px;
+	}
+	#our_clients .arrow-right i {
+    	right:-50px;
+	}
+	#contacts .contacts {
+	    margin: 80px 0px 10px 0px;
+	}
+	#contacts .contacts i{
+		font-size:70px;
+	}
+	#contacts .contacts h3{
+		font-size:20px;
+	}
+}
+@media screen and (max-width:768px){
+	header .main-block {
+   		margin-bottom:60%;
+	}
+
+	#about-me .about-me .about-me__text {
+    	padding: 30px 20px;
+	}
+}
+@media screen and (max-width:620px){
+	#our_clients .arrow-left,
+	#our_clients .arrow-right{
+    	display:none;
+	}
+}
+@media screen and (max-width:576px){
+	.container{
+		width:90%;
+	}
+	header .main-block {
+   		margin-bottom:35vh;
+	}
+}
+
+@media screen and (max-width:485px){
+	header .main-block{
+		margin-top:10vh;
+		margin-bottom:50%;
+	}
+	header .main-block img{
+		width:30%;
+	}
+	header .main-block .main-block__text {
+	    margin: 10px 0px;
+	    font-size: 10px;
+	}
+	header .scrolldown {
+	    font-size: 10px;
+	}
+	header .scrolldown span {
+	    top: -25px;
+	    width: 14px;
+	    height: 14px;
+	    margin-left: -7px;
+	}
+	header .main-block .main-block__text,
+	#about-me .about-me .about-me__text{
+    	padding:0px;
+	}
+	#our_services .service{
+    	padding:20px 0px;
+	}
+	#about-me .about-me .about-me__text,
+	#our_clients .commentator .commentator__text {
+    	font-size: 15px;
+	}
+	#our_clients .commentator .commentator__text {
+	    padding: 20px 20px;
+	}
+
+}

@@ -1,0 +1,1093 @@
+@media screen and (max-width:1200px){
+	header .main-block {
+   		margin-bottom:40vh;
+	}
+	#our_clients .arrow-left i {
+    	left:0px;
+	}
+	#our_clients .arrow-right i {
+    	right:0px;
+	}
+
+}
+
+@media screen and (max-width:992px){
+	header .link{
+		display:none
+	}
+	#about-me .about-me .about-me__text{
+		margin:30px 0px;
+		padding: 30px 100px;
+	}
+
+	#our_clients .commentator .commentator__text {
+    	margin: 0px;
+	}
+	#our_clients .arrow-left i {
+    	left:-50px;
+	}
+	#our_clients .arrow-right i {
+    	right:-50px;
+	}
+	#contacts .contacts {
+	    margin: 80px 0px 10px 0px;
+	}
+	#contacts .contacts i{
+		font-size:70px;
+	}
+	#contacts .contacts h3{
+		font-size:20px;
+	}
+}
+@media screen and (max-width:768px){
+	header .main-block {
+   		margin-bottom:60%;
+	}
+
+	#about-me .about-me .about-me__text {
+    	padding: 30px 20px;
+	}
+}
+@media screen and (max-width:620px){
+	#our_clients .arrow-left,
+	#our_clients .arrow-right{
+    	display:none;
+	}
+}
+@media screen and (max-width:576px){
+	.container{
+		width:90%;
+	}
+	header .main-block {
+   		margin-bottom:35vh;
+	}
+}
+
+@media screen and (max-width:485px){
+	header .main-block{
+		margin-top:10vh;
+		margin-bottom:50%;
+	}
+	header .main-block img{
+		width:30%;
+	}
+	header .main-block .main-block__text {
+	    margin: 10px 0px;
+	    font-size: 10px;
+	}
+	header .scrolldown {
+	    font-size: 10px;
+	}
+	header .scrolldown span {
+	    top: -25px;
+	    width: 14px;
+	    height: 14px;
+	    margin-left: -7px;
+	}
+	header .main-block .main-block__text,
+	#about-me .about-me .about-me__text{
+    	padding:0px;
+	}
+	#our_services .service{
+    	padding:20px 0px;
+	}
+	#about-me .about-me .about-me__text,
+	#our_clients .commentator .commentator__text {
+    	font-size: 15px;
+	}
+	#our_clients .commentator .commentator__text {
+	    padding: 20px 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Спецификации */
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+	--def: #96B7C4;     
+    --inv: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight:500;
+
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+section{
+	background-color:#f9fbfe;
+}
+ul,li{
+	display:block;
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:700;
+}
+a{
+	color:white;
+}
+a:hover{
+	text-decoration:none;
+	color:white;
+}
+.arrow-bottom img{
+	position: absolute;
+	z-index:1;
+    bottom: 0px;
+    width: 100%;
+}
+.arrow-top img{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.section-name h2{
+	color:#0080bc;
+	text-transform:uppercase;
+	font-size:25px;
+	margin-top:60px;
+}
+
+.section-name h2:before {
+	position: absolute;
+   	width: 30px;
+	height: 5px;
+	bottom: -8px;
+	right: 50%;
+	margin-right: -15px;
+	background: #0080bc;
+	content: '';
+	display: inline-block;
+}
+.overlay{
+	background-color:rgba(0,0,0,0.8);
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+/* Главный экран */
+header{
+	background:url(../img/header-bg.jpg)no-repeat top center /  cover;
+	height:100vh;
+	padding-top:37px;
+	color:white;
+}
+
+header .header nav .link li{
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+header .header nav .link .link__item a{
+	display:block;
+}
+/* ~~~~~~~ INIT. BTN ~~~~~~~ */
+
+header .header nav .link .link__item .btn {
+	font-size: 12px;
+    position: relative; 
+    color: var(--inv);
+    text-transform: uppercase;
+    transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);  
+    cursor: pointer;
+    user-select: none;
+    z-index:100;
+    letter-spacing:1.5px;
+}
+
+header .header nav .link .link__item .btn:before, .btn:after {
+    content: '';
+    position: absolute; 
+    transition: inherit;
+    z-index: -1;
+}
+
+header .header nav .link .link__item .btn:hover {
+    color: var(--def);
+    transition-delay: .6s;
+}
+
+header .header nav .link .link__item .btn:hover:before {
+    transition-delay: 0s;
+}
+
+header .header nav .link .link__item .btn:hover:after {
+    background: var(--inv);
+    transition-delay: .4s;
+}
+
+/* From Right */
+
+header .header nav .link .link__item .from-right:before, 
+header .header nav .link .link__item .from-right:after {
+	top: 0;
+	width: 0;
+	height: 100%;
+}
+
+header .header nav .link .link__item .from-right:before {
+	left: 0;
+	border: 1px solid var(--inv);
+	border-left: 0;
+	border-right: 0;	
+}
+
+header .header nav .link .link__item .from-right:after {
+	right: 0;
+}
+
+header .header nav .link .link__item .from-right:hover:before,
+header .header nav .link .link__item .from-right:hover:after {
+	width: 100%;
+}
+
+
+/* From Middle */
+
+header .header nav .link .link__item .from-middle:before {
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 0;
+    border: 1px solid var(--inv);
+    border-left: 0;
+    border-right: 0;
+}
+
+header .header nav .link .link__item .from-middle:after {
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: var(--inv);
+}
+
+header .header nav .link .link__item .from-middle:hover:before {
+    left: 0;
+    width: 100%;
+}
+
+header .header nav .link .link__item .from-middle:hover:after {
+    top: 0;
+    height: 100%;
+}
+
+header .main-block{
+	margin:20vh 0px 20vh 0px;
+}
+header .main-block .main-block__text{
+	margin:35px 0px;
+	font-size:18px;
+	padding:0px 80px;
+}
+header .main-block .main-block__text span{
+	font-weight:700;
+}
+header .scrolldown{
+	position: relative;
+	z-index:100;
+}
+header .scrolldown span {
+  position: absolute;
+  top:-40px;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+/* Услуги */
+.service{
+    margin: 30px auto;
+    padding: 30px 50px;
+}
+.service:hover{
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+.service__img{
+	width:100px;
+	height:100px;
+}
+.service .service__title{
+	margin-top:16px;
+	color:#616161;
+	font-size:18px;
+}
+.service .service__description{
+	margin-top:20px;
+	color:#606060;
+	font-size:13px;
+}
+/* Портфолио */
+#our_portfolio{
+	position:relative;
+	background:url(../img/portfolio-bg.jpg)no-repeat top center /  cover;
+}
+#our_portfolio .section-name h2{
+	color:#f9fbfe;
+}
+#our_portfolio .section-name h2:before{
+	background-color:#f9fbfe;
+}
+#our_portfolio .portfolio{
+	margin-top:80px;
+	padding-bottom:200px;
+}
+#our_portfolio .portfolio .col-md-4{
+	padding:0;
+}
+#our_portfolio .portfolio .portfolio__item img{
+	width:100%;
+}
+#our_portfolio .portfolio .portfolio__item{
+	position:relative;
+}
+#our_portfolio .portfolio .portfolio__item a{
+	display: block;
+}
+#our_portfolio .portfolio .portfolio__item a:hover .overlay-portfolio{
+	background-color:rgba(0, 129, 188, 0.90);
+}
+#our_portfolio .portfolio .portfolio__item a:hover .portfolio__item-hover{
+	display:block;
+}
+#our_portfolio .portfolio .overlay-portfolio{
+	background-color:rgba(0, 129, 188, 0.40);
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+.portfolio__item-hover{
+	position: absolute;
+    z-index: 10;
+    top: 15%;
+    left: 15%;
+	display:none;
+}
+.portfolio__item-hover h4{
+	font-size:25px;
+}
+.portfolio__item-hover button{
+	margin-top:40px;
+	width:70px;
+    height:70px;
+    border-radius: 50%;
+    background: white;
+    font-size:30px;
+    color:#0082bd;
+}
+
+/* Наша команда */
+#about-me{
+	position:relative;
+}
+#about-me .about-me{
+	margin-top:40px;
+}
+#about-me .about-me .about-me__img img{
+	width:100%;
+	height:100%;я
+}
+#about-me .about-me .about-me__text{
+    color: #606060;
+    font-size: 20px;
+}
+
+
+/* Наши клиенты */
+#our_clients{
+	position:relative;
+	background:url(../img/clients-bg.png)no-repeat top center /  cover;
+}
+#our_clients .section-name h2{
+	color:#f9fbfe;
+}
+#our_clients .section-name h2:before{
+	background-color:#f9fbfe;
+}
+
+#our_clients .commentator{
+	position:relative;
+	margin-top:60px;
+	margin-bottom:150px;
+	color:white;
+	outline: none;
+}
+#our_clients .commentator .commentator__name{
+	padding-top:30px;
+}
+#our_clients .arrow-left i,
+#our_clients .arrow-right i{
+    position: absolute;
+    top:50%;
+    font-size: 50px;
+    color:white;
+}
+#our_clients .arrow-left i{
+	left:-25px;
+}
+#our_clients .arrow-right i{
+    right:-25px;
+}
+#our_clients .commentator .commentator__img{
+	width: 153px;
+    height: 153px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#our_clients .commentator .commentator__img img{
+	width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#our_clients .commentator .commentator__arrow-down{
+	margin:25px auto;
+	font-size:50px;
+}
+
+#our_clients .commentator .commentator__text{
+	background: rgba(255, 255, 255, 0.1);
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 0px 100px;
+}
+
+
+/* Запрос */
+#hire_me{
+	
+}
+#hire_me .form-container{
+	margin-top:40px;
+}
+
+#hire_me .fields input,
+#hire_me .fields textarea{
+	width: 100%;
+	background-color:#f9fbfe;
+	border: 1px solid #cdced1;
+    border-radius: 5px;
+    padding: 10px 25px;
+    outline: none;
+}
+
+#hire_me .fields input[type="email"]{
+	margin-top:10px;
+	margin-bottom:25px;
+}
+
+#hire_me .fields input[type="submit"]{
+	width:50%;
+	margin:20px auto;
+}
+
+#hire_me .fields input[type="submit"]{
+	
+}
+
+
+/* Контакты */
+#contacts{
+	position:relative;
+	background:url(../img/contacts-bg.png)no-repeat top center /  cover;
+}
+#contacts .section-name h2{
+	color:#f9fbfe;
+}
+#contacts .section-name h2:before{
+	background-color:#f9fbfe;
+}
+
+#contacts .contacts{
+	color:white;
+	margin:80px auto;
+}
+
+#contacts .contacts i{
+	font-size:80px;
+	padding-bottom:15px
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Arrow</title>
+	<link rel="icon" href="img/code.png">
+	<!--- BOOTSTRAP -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!--- Google Fonts --->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap" rel="stylesheet">
+	<!--- Font Awesome --->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<!--- Main Css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!--- MEDIA -->
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+	<link rel="stylesheet" href="css/media.css">
+	<!--- Stick Css -->
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-lg-4">
+						<a class="logo" href=""><img src="img/logo.png" alt=""></a>
+					</div>
+					<div class="col-md-9 col-lg-8">
+						<nav class="clearfix">
+							<ul class="link clearfix">
+								<li class="link__item ">
+									<a href="#our_services">
+										<div class="btn from-middle">	Услуги
+										</div>
+									</a>
+								</li>
+								<li class="link__item">
+									<a href="#our_portfolio">
+										<div class="btn from-middle">	Портфолио
+										</div>
+									</a>
+								</li>
+								<li class="link__item ">
+									<a href="#about-me">
+										<div class="btn from-middle">
+										Обо мне
+										</div>
+									</a>
+								</li>
+								</li>
+								<li class="link__item">
+									<a href="#our_clients">
+										<div class="btn from-middle">	
+										Отзывы
+										</div>
+									</a>
+								</li>
+								<li class="link__item">
+									<a href="#hire_me">
+										<div class="btn from-middle">
+										Отправить запрос
+										</div>
+									</a>
+								</li>	
+								<li class="link__item">
+									<a href="#contacts">
+										<div class="btn from-middle">	Контакты
+										</div>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="main-block text-center">
+						<img src="img/arrow.png" alt="" class="main-block__img">
+						<p class="main-block__text">
+							<span>Верстка</span> – один из важнейших этапов создания веб-сайта, включает в себя достаточно сложный процесс формирования веб-страниц из изображений, созданных веб-дизайнером.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<a class="scrolldown" href="#our_services"><span></span><br>Scroll Down</a>
+				</div>
+			</div>
+		</div>
+		<div class="arrow-bottom">
+			<img src="img/Sep-bot.png" alt="">
+		</div>
+	</header>
+	<section id="our_services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-name text-center">
+						<h2>
+							Услуги
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<div class="service text-center">
+						<img src="img/html+css.png" alt="" class="service__img">
+						<h3 class="service__title">
+							HTML5 + CSS3
+						</h3>
+						<p class="service__description">
+							Современная верстка с использованием предпроцессоров Jade + Sass
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="service text-center">
+						<img src="img/responsive.png" alt="" class="service__img">
+						<h3 class="service__title">
+							BOOTSTRAP
+						</h3>
+						<p class="service__description">
+							Адаптивная верстка с использованием фреймворка bootstrap
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="service text-center">
+						<img src="img/browser.png" alt="" class="service__img">
+						<h3 class="service__title">
+							КРОССБРАУЗЕРНОСТЬ
+						</h3>
+						<p class="service__description">
+							IE9+, Microsoft edge, Firefox, Chrome, Opera, Safari, Яндекс.Браузер
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="service text-center">
+						<img src="img/w3c.png" alt="" class="service__img">
+						<h3 class="service__title">
+							ВАЛИДНОСТЬ
+						</h3>
+						<p class="service__description">
+							Соблюдение стандартов W3C, семантическая разметка кода
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="service text-center">
+						<img src="img/focus.png" alt="" class="service__img">
+						<h3 class="service__title">
+							PIXEL PERFECT
+						</h3>
+						<p class="service__description">
+							Использование Pixel Perfect
+							(точная вёрстка по макету)
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="service text-center">
+						<img src="img/clean-code.png" alt="" class="service__img">
+						<h3 class="service__title">
+							ЧИСТЫЙ КОД
+						</h3>
+						<p class="service__description">
+							Чистый, комментированный код, понятный любому программисту
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="our_portfolio">
+		<div class="overlay"></div>
+		<div class="arrow-top">
+			<img src="img/Sep-top.png" alt="">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-name text-center">
+						<h2>
+							Портфолио
+						</h2>
+					</div>
+				</div>
+			</div>
+			<ul class="portfolio">
+				<div class="row">
+					<div class="col-md-4">
+						<li class="portfolio__item">
+							<a href="#">
+								<div class="overlay-portfolio"></div>
+								<img src="img/p1.jpg" alt="">
+								<div class="portfolio__item-hover text-center">
+									<h4>Iphone App UI Design</h4>
+									<button>
+										<i class="fas fa-plus"></i>
+									</button>
+								</div>
+							</a>
+						</li>
+					</div>
+					<div class="col-md-4">
+						<li class="portfolio__item">
+							<a href="#">
+								<div class="overlay-portfolio"></div>
+								<img src="img/p2.jpg" alt="">
+								<div class="portfolio__item-hover text-center">
+									<h4>Iphone App UI Design</h4>
+									<button>
+										<i class="fas fa-plus"></i>
+									</button>
+								</div>
+							</a>
+						</li>
+					</div>
+					<div class="col-md-4">
+						<li class="portfolio__item">
+							<a href="#">
+								<div class="overlay-portfolio"></div>
+								<img src="img/p3.jpg" alt="">
+								<div class="portfolio__item-hover text-center">
+									<h4>Iphone App UI Design</h4>
+									<button>
+										<i class="fas fa-plus"></i>
+									</button>
+								</div>
+							</a>
+						</li>
+					</div>
+					<div class="col-md-4">
+						<li class="portfolio__item">
+							<a href="#">
+								<div class="overlay-portfolio"></div>
+								<img src="img/p4.jpg" alt="">
+								<div class="portfolio__item-hover text-center">
+									<h4>Iphone App UI Design</h4>
+									<button>
+										<i class="fas fa-plus"></i>
+									</button>
+								</div>
+							</a>
+						</li>
+					</div>
+					<div class="col-md-4">
+						<li class="portfolio__item">
+							<a href="#">
+								<div class="overlay-portfolio"></div>
+								<img src="img/p5.jpg" alt="">
+								<div class="portfolio__item-hover text-center">
+									<h4>Iphone App UI Design</h4>
+									<button>
+										<i class="fas fa-plus"></i>
+									</button>
+								</div>
+							</a>
+						</li>
+					</div>
+					<div class="col-md-4">
+						<li class="portfolio__item">
+							<a href="#">
+								<div class="overlay-portfolio"></div>
+								<img src="img/p6.jpg" alt="">
+								<div class="portfolio__item-hover text-center">
+									<h4>Iphone App UI Design</h4>
+									<button>
+										<i class="fas fa-plus"></i>
+									</button>
+								</div>
+							</a>
+						</li>
+					</div>
+				</div>
+			</ul>
+		</div>
+		<div class="arrow-bottom">
+			<img src="img/Sep-bot.png" alt="">
+		</div>
+	</section>
+	<section id="about-me">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-name text-center">
+						<h2>
+							Обо мне
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="about-me">
+				<div class="row">
+					<div class="col-md-12 col-lg-6">
+						<div class="about-me__img">
+							<img src="img/web-development.png" alt="">
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6">
+						<p class="about-me__text">
+							Я - Рани Дардур - frontend разработчик. Занимаюсь разработкой созданием сайтов с адаптивной и кроссбраузерной версткой на различных CMS и без них. 
+							Мне нравится искать интересные решения, создавать невозможное при помощи css и реализовывать идеи на сайте. Знаком со стандартами семантической разметки schema и open graph, фреймворками, такими как Bootstrap 4 и jQuery, способами верстки на Flex, Bootstrap, Grid и другими современными веб-технологиями. Постоянно слежу за трэндами в области веб-дизайна и повышаю свои навыки. Работаю с GitHub. В последнее время углубился в изучение JavaScript, Gulp, Node и реализовыватьичных интересных инструментов разработки.
+							Мой сертификат
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="our_clients">
+		<div class="overlay"></div>
+		<div class="arrow-top">
+			<img src="img/Sep-top.png" alt="">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-name text-center">
+						<h2>
+							Наши клиенты
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="arrow-left">
+						<i class="fas fa-chevron-left"></i>
+					</div>
+					<div class="sl">
+						<div class="commentator">
+							<div class="commentator__img text-center">
+								<img src="img/man.png" alt="" сlass="text-center">
+							</div>
+							<div class="commentator__name
+							text-center">
+								<h4>
+									Владислав Акимов
+								</h4>
+							</div>
+							<div class="commentator__arrow-down text-center">
+								<i class="fas fa-angle-down"></i>
+							</div>
+							<div class="commentator__text">
+								Стимулирование коммьюнити редко соответствует рыночным ожиданиям. В соответствии с законом Ципфа, производство не критично. Как отмечает Майкл Мескон, рекламная площадка категорически синхронизирует ребрендинг. Целевой трафик, следовательно, абстрактен. Личность топ менеджера, на первый взгляд, изменяет институциональный маркетинг.
+							</div>
+						</div>
+						<div class="commentator">
+							<div class="commentator__img text-center">
+								<img src="img/man.png" alt="" сlass="text-center">
+							</div>
+							<div class="commentator__name
+							text-center">
+								<h4>
+									Дмитрий Попов
+								</h4>
+							</div>
+							<div class="commentator__arrow-down text-center">
+								<i class="fas fa-angle-down"></i>
+							</div>
+							<div class="commentator__text">
+								Стимулирование коммьюнити редко соответствует рыночным ожиданиям. В соответствии с законом Ципфа, производство не критично. Как отмечает Майкл Мескон, рекламная площадка категорически синхронизирует ребрендинг. Целевой трафик, следовательно, абстрактен. Личность топ менеджера, на первый взгляд, изменяет институциональный маркетинг.
+							</div>
+						</div>
+						<div class="commentator">
+							<div class="commentator__img text-center">
+								<img src="img/girl.png" alt="" сlass="text-center">
+							</div>
+							<div class="commentator__name
+							text-center">
+								<h4>
+									Юлия Жидкова
+								</h4>
+							</div>
+							<div class="commentator__arrow-down text-center">
+								<i class="fas fa-angle-down"></i>
+							</div>
+							<div class="commentator__text">
+								Стимулирование коммьюнити редко соответствует рыночным ожиданиям. В соответствии с законом Ципфа, производство не критично. Как отмечает Майкл Мескон, рекламная площадка категорически синхронизирует ребрендинг. Целевой трафик, следовательно, абстрактен. Личность топ менеджера, на первый взгляд, изменяет институциональный маркетинг.
+							</div>
+						</div>
+					</div>
+					<div class="arrow-right">
+						<i class="fas fa-chevron-right"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="arrow-bottom">
+			<img src="img/Sep-bot.png" alt="">
+		</div>
+	</section>
+	<section id="hire_me">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-name text-center">
+						<h2>
+							Отправить мне запрос
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-6 offset-md-3">
+					<div class="form-container">
+						<div class="note"></div>
+						<div class="fields text-center">
+							<form class="ajax-contact-form" action="">
+								<p><input type="text" name="name" value="" placeholder="Name"></p>
+								<div class="row">
+									<div class="col"><input type="email" name="email" value="" placeholder="E-mail"></div>
+									</div>
+								<textarea name="message" cols="40" rows="6" placeholder="Message"></textarea>
+								<input type="submit" name="submit" class="form-container__btn" value="Отправить">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contacts">
+		<div class="overlay"></div>
+		<div class="arrow-top">
+			<img src="img/Sep-top.png" alt="">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-name text-center">
+						<h2>
+							Мои Контакты
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-3">
+					<div class="contacts text-center">
+						<i class="fab fa-telegram"></i>
+						<h3 class="contacts__title">
+							Telegram
+						</h3>
+						<p class="contacts__description">
+							@HunterHF
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="contacts text-center">
+						<i class="fas fa-envelope-open-text"></i>
+						<h3 class="contacts__title">
+							E-mail
+						</h3>
+						<p class="contacts__description">
+							dardurranisc@gmail.com
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="contacts text-center">
+						<i class="fab fa-vk"></i>
+						<h3 class="contacts__title">
+							Вконтакте
+						</h3>
+						<p class="contacts__description">
+							vk.com/HunterHF
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="contacts text-center">
+						<i class="fab fa-telegram"></i>
+						<h3 class="contacts__title">
+							Telegram
+						</h3>
+						<p class="contacts__description">
+							@HunterHF
+						</p>
+					</div>
+				</div>
+			</div>
+			.row>.col-md-12>.copyrited>p{}
+		</div>
+	</section>
+	<script
+  	src="https://code.jquery.com/jquery-3.4.1.min.js"
+  	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  	crossorigin="anonymous"></script>
+  	<script src="js/contactform.js"></script>
+	<script src="js/equalheights.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script>
+		$('.sl').slick({
+			prevArrow: $('.fa-chevron-left'),
+			nextArrow: $('.fa-chevron-right'),
+			autoplay: true,
+  			autoplaySpeed:4000
+		});
+	</script>
+</body>
