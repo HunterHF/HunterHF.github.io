@@ -8,6 +8,10 @@
 	#our_clients .arrow-right i {
     	right:0px;
 	}
+	.portfolio__item-hover {
+	    top: 10px;
+	    left: 10%;
+	}
 
 }
 
@@ -23,6 +27,12 @@
 	}
 	header .burger-menu{
 		display:block;
+	}
+	.portfolio__item-hover h4 {
+    	font-size: 20px;
+	}
+	.portfolio__item-hover button {
+   		margin-top:0px;
 	}
 	.navbar,
 	.navbar-menu_active{
@@ -53,10 +63,6 @@
 	}
 }
 @media screen and (max-width:768px){
-	/*header .main-block {
-   		margin-bottom:60%;
-	}*/
-
 	#about-me .about-me .about-me__text {
     	padding: 30px 20px;
 	}
@@ -71,24 +77,10 @@
 	.container{
 		width:90%;
 	}
-	/*header .main-block {
-   		margin-bottom:35vh;
-	}*/
+
 }
 
 @media screen and (max-width:485px){
-	/*header .main-block{
-		margin-top:10vh;
-		margin-bottom:50%;
-	}
-	header .main-block img{
-		width:30%;
-	}
-	*/
-	/*header .main-block .main-block__text {
-	    margin: 10px 0px;
-	    font-size: 10px;
-	}*/
 	header .scrolldown {
 	    font-size: 10px;
 	}
