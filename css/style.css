@@ -109,15 +109,15 @@ header .header nav .link .link__item .btn {
   top:0;
   display:none;
 }
-.burger-menu__button{
-  position:fixed;
+.burger-menu__button {
+  position: fixed;
   z-index: 1010;
   right: 40px;
-  top:20px;
-  width:80px;
-  height:80px;
-  padding-top:40px;
-  border-radius:50%;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  padding-top: 30px;
+  border-radius: 50%;
   background-color: #2a2a2a;
 }
 
@@ -139,9 +139,9 @@ header .header nav .link .link__item .btn {
 }
 
 .burger-menu__link{
-  padding:30px;
-  font-family:sans-serif;
-  font-size:20px;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 10px;
   text-decoration:none;
   font-weight:bold;
   color: #fff;
@@ -171,6 +171,7 @@ header .header nav .link .link__item .btn {
 
 .ham {
   margin-top: -40px;
+  padding-left: 5px;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   transition: transform 400ms;
