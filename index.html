@@ -565,5 +565,23 @@
 		});
 
 		burgerMenu('.burger-menu');
+
+		$('[type="button"]').click(function() {
+		  $.post( 
+		  
+		  "submit.php", //url
+		  
+		  { //äàííûå èç ôîðìû
+		    email: $('[name="email"]').val(),
+		    name: $('[name="name"]').val(),
+		    message: $('[name="message"]').val()
+		  }, 
+		  
+		  function( data ) { //ïîñëå îòïðàâêè äàííûõ
+		    $( ".result" ).html(data);
+		  }
+		  
+		  );
+		});
 	</script>
 </body>
