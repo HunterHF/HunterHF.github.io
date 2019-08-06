@@ -18,6 +18,7 @@
 @media screen and (max-width:992px){
 	header .main-block {
    		margin:10% 0px 30% 0px;
+   		font-size:100%;
 	}
 	header .main-block .main-block__text {
 	    padding:0px;
