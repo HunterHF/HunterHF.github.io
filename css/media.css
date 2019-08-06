@@ -109,7 +109,7 @@
 
 }
 
-@media screen and (max-width:485px){
+@media screen and (max-height:485px){
 	header .main-block {
     	margin: 1% 0px 0 0px;
 	}
