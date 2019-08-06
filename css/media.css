@@ -109,12 +109,8 @@
 
 }
 
-@media screen and (max-height:485px){
-	header .main-block {
-    	margin: 1% 0px 0 0px;
+@media screen and (max-height:500px){
+	header {
+    	height: 100%;
 	}
-	header .main-block .main-block__text{
-		
-	}
-
 }
