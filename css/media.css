@@ -8,10 +8,6 @@
 	#our_clients .arrow-right i {
     	right:0px;
 	}
-	.portfolio__item-hover {
-	    top: 10px;
-	    left: 10%;
-	}
 
 }
 
@@ -28,9 +24,6 @@
 	}
 	header .burger-menu{
 		display:block;
-	}
-	.portfolio__item-hover h4 {
-    	font-size: 20px;
 	}
 	.portfolio__item-hover button {
    		margin-top:0px;
