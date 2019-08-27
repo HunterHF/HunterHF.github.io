@@ -8,7 +8,11 @@
 	#our_clients .arrow-right i {
     	right:0px;
 	}
-
+	..portfolio__item-hover button{
+		margin-top: 20px;
+	    width: 60px;
+	    height: 60px;
+	}
 }
 
 @media screen and (max-width:992px){
@@ -24,9 +28,6 @@
 	}
 	header .burger-menu{
 		display:block;
-	}
-	.portfolio__item-hover button {
-   		margin-top:0px;
 	}
 	.navbar,
 	.navbar-menu_active{
