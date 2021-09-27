@@ -1,0 +1,115 @@
+[16-Sep-2021 18:39:21 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: failed at `-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355,` ./assets/less/style.less on line 916 in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:3661
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2468): lessc_parser->throwError()
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#5 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#6 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 3661
+[16-Sep-2021 18:49:45 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: unclosed block in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:2472
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#5 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 2472
+[16-Sep-2021 18:51:07 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: failed at `width: ~"calc(1164px / 4)!important"` ./assets/less/style.less on line 4577 in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:3661
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2468): lessc_parser->throwError()
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#5 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#6 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 3661
+[16-Sep-2021 18:51:11 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: failed at `width: ~"calc(1164px / 4)!important"` ./assets/less/style.less on line 4577 in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:3661
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2468): lessc_parser->throwError()
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#5 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#6 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 3661
+[16-Sep-2021 18:51:15 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: failed at `width: ~"calc(1164px / 4)!important"` ./assets/less/style.less on line 4577 in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:3661
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2468): lessc_parser->throwError()
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#5 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#6 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 3661
+[16-Sep-2021 18:51:21 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: unclosed block in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:2472
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#5 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 2472
+[16-Sep-2021 18:51:28 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: failed at `width: ~"calc(1164px / 4)!important"` ./assets/less/style.less on line 4577 in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:3661
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2468): lessc_parser->throwError()
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#5 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#6 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 3661
+[16-Sep-2021 18:51:35 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: failed at `width: ~"calc(1164px / 4)!important"` ./assets/less/style.less on line 4577 in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:3661
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2468): lessc_parser->throwError()
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#5 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#6 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 3661
+[16-Sep-2021 18:51:48 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: failed at `width: ~"calc(1164px / 4)!important"` ./assets/less/style.less on line 4577 in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:3661
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2468): lessc_parser->throwError()
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#5 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#6 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 3661
+[16-Sep-2021 18:56:11 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: unclosed block in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:2472
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#5 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 2472
+[16-Sep-2021 19:01:08 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: unclosed block in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:2472
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#5 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 2472
+[17-Sep-2021 14:33:54 Europe/Moscow] PHP Fatal error:  Uncaught Exception: parse error: unclosed block in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php:2472
+Stack trace:
+#0 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(1993): lessc_parser->parse('@charset "UTF-8...')
+#1 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2028): lessc->compile('@charset "UTF-8...', './assets/less/s...')
+#2 /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php(2100): lessc->compileFile('./assets/less/s...')
+#3 /home/d86458/public_html/tech00.xyz/m2/index.php(32): lessc->cachedCompile(Array)
+#4 /home/d86458/public_html/tech00.xyz/m2/index.php(40): autoCompileLess('./assets/less/s...', './assets/css/st...')
+#5 {main}
+  thrown in /home/d86458/public_html/tech00.xyz/m2/assets/less/lessc.inc.php on line 2472
